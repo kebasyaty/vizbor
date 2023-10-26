@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve">
+<path d="M0,346.68v-310c0-5.44,4.72-10,10.48-10H501.6c5.68,0,10.4,4.56,10.4,10v310H0z"/>
+<g>
+	<path style="fill:#999999;" d="M512,346.68v42.64c0,5.92-4.72,10.72-10.48,10.72H10.48C4.72,400.04,0,395.24,0,389.4v-42.64h512
+		V346.68z"/>
+	<polygon style="fill:#999999;" points="330.64,474.68 181.36,474.68 192,400.04 320,400.04 	"/>
+</g>
+<g>
+	<polygon style="fill:#666666;" points="192,400.04 320,400.04 326.64,446.6 189.52,417.4 	"/>
+	<rect x="144" y="474.68" style="fill:#666666;" width="224" height="10.64"/>
+</g>
+<g>
+	<circle style="fill:#FFFFFF;" cx="149.28" cy="69.4" r="10.72"/>
+	<circle style="fill:#FFFFFF;" cx="106.64" cy="69.4" r="10.72"/>
+	<circle style="fill:#FFFFFF;" cx="64" cy="69.4" r="10.72"/>
+</g>
+<rect x="181.28" y="64.04" style="fill:#999999;" width="277.36" height="10.64"/>
+<g>
+	<rect x="213.2" y="250.68" style="fill:#BCBCBC;" width="224" height="10.64"/>
+	<rect x="213.2" y="272.04" style="fill:#BCBCBC;" width="224" height="10.64"/>
+	<rect x="213.2" y="293.4" style="fill:#BCBCBC;" width="224" height="10.64"/>
+</g>
+<g>
+	<rect x="213.2" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<rect x="234.48" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<rect x="255.84" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<rect x="277.2" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<rect x="298.48" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<rect x="319.84" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<rect x="341.2" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<rect x="362.48" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<rect x="383.84" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<rect x="405.2" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<rect x="426.48" y="218.68" style="fill:#FFFFFF;" width="10.64" height="10.64"/>
+	<circle style="fill:#FFFFFF;" cx="127.84" cy="149" r="26.32"/>
+	<path style="fill:#FFFFFF;" d="M126.56,236.52l-25.44-55.12c0,0-26.64,0.32-26.64,24.88s0,30.24,0,30.24
+		S126.8,236.52,126.56,236.52z"/>
+	<path style="fill:#FFFFFF;" d="M129.04,236.52l25.44-55.12c0,0,26.64,0.32,26.64,24.88s0,30.24,0,30.24
+		S128.88,236.52,129.04,236.52z"/>
+</g>
+<polygon style="fill:#FF6600;" points="127.84,181.4 109.52,181.4 127.84,221.88 146.16,181.4 "/>
+<rect x="202.48" y="122.68" style="fill:#FFFFFF;" width="64" height="64"/>
+<g>
+	<rect x="287.84" y="122.68" style="fill:#FF6600;" width="64" height="64"/>
+	<rect x="373.2" y="122.68" style="fill:#FF6600;" width="64" height="64"/>
+	<rect x="74.48" y="272.04" style="fill:#FF6600;" width="106.64" height="10.64"/>
+	<rect x="95.84" y="293.4" style="fill:#FF6600;" width="64" height="10.64"/>
+</g>
+<path style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" d="M460.72,26.68H10.48C4.72,26.68,0,31.24,0,36.68v179.44
+	L460.72,26.68z"/>
+</svg>
