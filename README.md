@@ -36,6 +36,10 @@ TODO: Write usage instructions here
 
 TODO: Write development instructions here
 
+## Changelog
+
+[View the change history.](https://github.com/kebasyaty/crypen/blob/v0/CHANGELOG.md "View the change history.")
+
 ## License
 
 **This project is licensed under the** [MIT](https://github.com/kebasyaty/crypen/blob/v0/LICENSE "MIT").
