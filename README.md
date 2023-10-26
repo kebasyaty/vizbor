@@ -26,6 +26,10 @@ TODO: Write usage instructions here
 
 TODO: Write development instructions here
 
+## License
+
+**This project is licensed under the** [MIT](https://github.com/kebasyaty/crypen/blob/v0/LICENSE "MIT").
+
 ## Contributing
 
 1. Fork it (<https://github.com/kebasyaty/crypen/fork>)
