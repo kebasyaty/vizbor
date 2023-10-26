@@ -16,21 +16,9 @@ TODO: Write a description here
 
 ## Installation
 
-1. Add the dependency to your `shard.yml`:
-
-   ```yaml
-   dependencies:
-     crypan:
-       github: kebasyaty/crypan
-   ```
-
-2. Run `shards install`
+TODO: Write installation instructions here
 
 ## Usage
-
-```crystal
-require "crypan"
-```
 
 TODO: Write usage instructions here
 
