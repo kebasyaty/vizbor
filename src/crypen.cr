@@ -1,4 +1,4 @@
-# TODO: Write documentation for `Crypen`
+# TODO: Write documentation for `Crypan`
 module Crypan
   VERSION = "0.1.0"
 
