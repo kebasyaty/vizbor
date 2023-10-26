@@ -1,6 +1,6 @@
 require "./spec_helper"
 
-describe Crypen do
+describe Crypan do
   # TODO: Write tests
 
   it "works" do
