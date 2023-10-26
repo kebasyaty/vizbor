@@ -20,7 +20,7 @@ TODO: Write a description here
 
    ```yaml
    dependencies:
-     crypen:
+     crypan:
        github: kebasyaty/crypan
    ```
 
