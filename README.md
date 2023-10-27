@@ -5,7 +5,7 @@
 TODO: Write a description here
 
 <p>
-  <img src="https://github.com/kebasyaty/crypan/raw/v0/pictures/status_project/Status%20Project-Development-.svg"
+  <img src="https://github.com/kebasyaty/crypan/raw/v0/pictures/status_project/Status_Project-Development-.svg"
     alt="Status Project">
 </p>
 
