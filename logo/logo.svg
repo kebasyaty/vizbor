@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="111.63px" height="100px" version="1.1" viewBox="0 0 111.63 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-<g transform="matrix(.21804 0 0 .21804 0 -5.8172)"><path d="m0 346.68v-310c0-5.44 4.72-10 10.48-10h491.12c5.68 0 10.4 4.56 10.4 10v310z"/><g fill="#999">
+<svg width="114.81" height="130" version="1.1" viewBox="0 0 114.81 130" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<rect width="114.81" height="130" fill="none"/><g transform="matrix(.21804 0 0 .21804 1.5848 9.1818)"><path d="m0 346.68v-310c0-5.44 4.72-10 10.48-10h491.12c5.68 0 10.4 4.56 10.4 10v310z"/><g fill="#999">
 	<path d="m512 346.68v42.64c0 5.92-4.72 10.72-10.48 10.72h-491.04c-5.76 0-10.48-4.8-10.48-10.64v-42.64h512z"/>
-	<polygon points="320 400.04 330.64 474.68 181.36 474.68 192 400.04"/>
+	<polygon points="330.64 474.68 181.36 474.68 192 400.04 320 400.04"/>
 </g><g fill="#666">
-	<polygon points="189.52 417.4 192 400.04 320 400.04 326.64 446.6"/>
+	<polygon points="192 400.04 320 400.04 326.64 446.6 189.52 417.4"/>
 	<rect x="144" y="474.68" width="224" height="10.64"/>
 </g><g fill="#fff">
 	<circle cx="149.28" cy="69.4" r="10.72"/>
@@ -28,12 +28,11 @@
 	<rect x="405.2" y="218.68" width="10.64" height="10.64"/>
 	<rect x="426.48" y="218.68" width="10.64" height="10.64"/>
 	<circle cx="127.84" cy="149" r="26.32"/>
-	<path d="m126.56 236.52-25.44-55.12s-26.64 0.32-26.64 24.88v30.24h52.08z"/>
-	<path d="m129.04 236.52 25.44-55.12s26.64 0.32 26.64 24.88v30.24h-52.08z"/>
-</g><polygon points="146.16 181.4 127.84 181.4 109.52 181.4 127.84 221.88" fill="#f60"/><rect x="202.48" y="122.68" width="64" height="64" fill="#fff"/><g fill="#f60">
+	<path d="m126.56 236.52-25.44-55.12s-26.64 0.32-26.64 24.88v30.24z"/>
+	<path d="m129.04 236.52 25.44-55.12s26.64 0.32 26.64 24.88v30.24z"/>
+</g><polygon points="127.84 181.4 109.52 181.4 127.84 221.88 146.16 181.4" fill="#f60"/><rect x="202.48" y="122.68" width="64" height="64" fill="#fff"/><g fill="#f60">
 	<rect x="287.84" y="122.68" width="64" height="64"/>
 	<rect x="373.2" y="122.68" width="64" height="64"/>
 	<rect x="74.48" y="272.04" width="106.64" height="10.64"/>
 	<rect x="95.84" y="293.4" width="64" height="10.64"/>
-</g><path d="m460.72 26.68h-450.24c-5.76 0-10.48 4.56-10.48 10v179.44z" enable-background="new" fill="#fff" opacity=".2"/></g>
-</svg>
+</g><path d="m460.72 26.68h-450.24c-5.76 0-10.48 4.56-10.48 10v179.44z" enable-background="new" fill="#fff" opacity=".2"/></g></svg>
