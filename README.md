@@ -8,6 +8,7 @@ TODO: Write a description here
 [![Docs](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://kebasyaty.github.io/crypan/)
 [![Crystal](https://img.shields.io/badge/crystal-v1.10.1%2B-red)](https://crystal-lang.org/)
 [![GitHub license](https://badgen.net/github/license/kebasyaty/crypan)](https://github.com/kebasyaty/crypan/blob/v0/LICENSE)
+[![Github all releases](https://img.shields.io/github/downloads/kebasyaty/crypan/total.svg)](https://GitHub.com/kebasyaty/crypan/releases/)
 
 <p>
   <img src="https://github.com/kebasyaty/crypan/raw/v0/pictures/status_project/Status_Project-Development-.svg"
