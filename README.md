@@ -15,6 +15,10 @@ TODO: Write a description here
     alt="Status Project">
 </p>
 
+## Requirements
+
+[View the list of requirements.](https://github.com/kebasyaty/crymon/blob/v0/REQUIREMENTS.md "Requirements")
+
 ## Installation
 
 TODO: Write installation instructions here
