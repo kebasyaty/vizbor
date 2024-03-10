@@ -16,7 +16,7 @@ homepage: https://github.com/kebasyaty/crypan
 repository: https://github.com/kebasyaty/crypan
 documentation: https://kebasyaty.github.io/crypan/
 
-dependencies:
+development_dependencies:
   ameba:
     github: crystal-ameba/ameba
     version: ~> 1.6.1
