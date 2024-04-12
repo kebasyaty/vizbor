@@ -1,2 +1,2 @@
 require "spec"
-require "../src/crypan"
+require "../src/vizbor"

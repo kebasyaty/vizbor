@@ -1,20 +1,20 @@
-name: crypan
+name: vizbor
 version: 0.1.0
 
 authors:
   - kebasyaty <kebasyaty@gmail.com>
 
 targets:
-  crypan:
-    main: src/crypan.cr
+  vizbor:
+    main: src/vizbor.cr
 
 crystal: ">= 1.10.1"
 
 license: MIT
 
-homepage: https://github.com/kebasyaty/crypan
-repository: https://github.com/kebasyaty/crypan
-documentation: https://kebasyaty.github.io/crypan/
+homepage: https://github.com/kebasyaty/vizbor
+repository: https://github.com/kebasyaty/vizbor
+documentation: https://kebasyaty.github.io/vizbor/
 
 development_dependencies:
   ameba:
