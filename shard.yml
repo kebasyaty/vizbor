@@ -8,7 +8,7 @@ targets:
   vizbor:
     main: src/vizbor.cr
 
-crystal: ">= 1.10.1"
+crystal: ">= 1.12.0"
 
 license: MIT
 
@@ -19,4 +19,3 @@ documentation: https://kebasyaty.github.io/vizbor/
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
-    version: ~> 1.6.1
