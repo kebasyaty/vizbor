@@ -11,7 +11,7 @@ TODO: Write a description here
 
 <p>
   <a href="https://github.com/kebasyaty/vizbor" alt="Status Project">
-    <img src="https://github.com/kebasyaty/vizbor/raw/v0/pictures/status_project/Status_Project-Beta-.svg"
+    <img src="https://github.com/kebasyaty/vizbor/raw/v0/pictures/status_project/Status_Project-Development-.svg"
       alt="Status Project">
   </a>
 </p>
