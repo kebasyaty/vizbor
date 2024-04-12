@@ -27,10 +27,6 @@ TODO: Write installation instructions here
 
 TODO: Write usage instructions here
 
-## Development
-
-TODO: Write development instructions here
-
 ## Changelog
 
 [View the change history.](https://github.com/kebasyaty/vizbor/blob/v0/CHANGELOG.md "View the change history.")
@@ -38,15 +34,3 @@ TODO: Write development instructions here
 ## License
 
 **This project is licensed under the** [MIT](https://github.com/kebasyaty/vizbor/blob/v0/LICENSE "MIT").
-
-## Contributing
-
-1. Fork it (<https://github.com/kebasyaty/vizbor/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Contributors
-
-- [kebasyaty](https://github.com/kebasyaty) - Gennady Kostyunin creator and maintainer
