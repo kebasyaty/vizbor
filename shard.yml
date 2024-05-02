@@ -16,6 +16,10 @@ homepage: https://github.com/kebasyaty/vizbor
 repository: https://github.com/kebasyaty/vizbor
 documentation: https://kebasyaty.github.io/vizbor/
 
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
