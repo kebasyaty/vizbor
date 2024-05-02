@@ -1,1 +1,2 @@
 - [ameba](https://github.com/crystal-ameba/ameba "ameba")
+- [kemal](https://github.com/kemalcr/kemal "kemal")
