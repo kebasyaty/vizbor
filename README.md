@@ -11,7 +11,6 @@
     <h3>TODO: Write a description here</h3>
     <p align="center">
       <a href="https://github.com/kebasyaty/vizbor/actions" alt="CI"><img src="https://github.com/kebasyaty/vizbor/workflows/CI/badge.svg" alt="CI"></a>
-      <a href="https://kebasyaty.github.io/vizbor/" alt="Docs"><img src="https://img.shields.io/badge/docs-available-brightgreen.svg" alt="Docs"></a>
       <a href="https://crystal-lang.org/" alt="Crysta"><img src="https://img.shields.io/badge/crystal-v1.12%2B-CC342D" alt="Crysta"></a>
       <a href="https://github.com/kebasyaty/vizbor/blob/main/LICENSE" alt="GitHub license"><img src="https://badgen.net/github/license/kebasyaty/vizbor" alt="GitHub license"></a>
     </p>
@@ -22,6 +21,10 @@
 </div>
 
 <hr>
+
+_Vizbor is based on the lightning fast, super simple Kemal web framework._
+<br>
+_For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
 
 <p>
   <a href="https://github.com/kebasyaty/vizbor" alt="Status Project">
