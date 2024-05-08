@@ -1,12 +1,27 @@
-[![Logo](https://github.com/kebasyaty/vizbor/raw/main/logo/logo.svg "Logo")](https://github.com/kebasyaty/vizbor "Logo")
+<div align="center">
+  <p align="center">
+    <a href="https://github.com/kebasyaty/vizbor">
+      <img
+        alt="Logo"
+        src="https://github.com/kebasyaty/vizbor/raw/main/logo/logo.svg">
+    </a>
+  </p>
+  <p>
+    <h1>Vizbor</h1>
+    <h3>TODO: Write a description here</h3>
+    <p align="center">
+      <a href="https://github.com/kebasyaty/vizbor/actions" alt="CI"><img src="https://github.com/kebasyaty/vizbor/workflows/CI/badge.svg" alt="CI"></a>
+      <a href="https://kebasyaty.github.io/vizbor/" alt="Docs"><img src="https://img.shields.io/badge/docs-available-brightgreen.svg" alt="Docs"></a>
+      <a href="https://crystal-lang.org/" alt="Crysta"><img src="https://img.shields.io/badge/crystal-v1.12%2B-CC342D" alt="Crysta"></a>
+      <a href="https://github.com/kebasyaty/vizbor/blob/main/LICENSE" alt="GitHub license"><img src="https://badgen.net/github/license/kebasyaty/vizbor" alt="GitHub license"></a>
+    </p>
+    <div align="center">
+      TODO: Write a description here
+    </div>
+  </p>
+</div>
 
-# Vizbor
-
-TODO: Write a description here
-
-[![CI](https://github.com/kebasyaty/vizbor/workflows/CI/badge.svg)](https://github.com/kebasyaty/vizbor/actions)
-[![Crystal](https://img.shields.io/badge/crystal-v1.12.0%2B-CC342D)](https://crystal-lang.org/)
-[![GitHub license](https://badgen.net/github/license/kebasyaty/vizbor)](https://github.com/kebasyaty/vizbor/blob/main/LICENSE)
+<hr>
 
 <p>
   <a href="https://github.com/kebasyaty/vizbor" alt="Status Project">
