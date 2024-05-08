@@ -5,7 +5,7 @@
 TODO: Write a description here
 
 [![CI](https://github.com/kebasyaty/vizbor/workflows/CI/badge.svg)](https://github.com/kebasyaty/vizbor/actions)
-[![Crystal](https://img.shields.io/badge/crystal-v1.12.0%2B-red)](https://crystal-lang.org/)
+[![Crystal](https://img.shields.io/badge/crystal-v1.12.0%2B-CC342D)](https://crystal-lang.org/)
 [![GitHub license](https://badgen.net/github/license/kebasyaty/vizbor)](https://github.com/kebasyaty/vizbor/blob/main/LICENSE)
 
 <p>
