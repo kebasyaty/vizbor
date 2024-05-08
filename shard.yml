@@ -19,6 +19,8 @@ documentation: https://kebasyaty.github.io/vizbor/
 dependencies:
   kemal:
     github: kemalcr/kemal
+  dynfork:
+    github: kebasyaty/dynfork
 
 development_dependencies:
   ameba:
