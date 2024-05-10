@@ -41,11 +41,13 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
 
 1. Install MongoDB (if not installed):<br>
    [![Fedora](https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white)](https://github.com/kebasyaty/vizbor/blob/main/FEDORA_INSTALL_MONGODB.md)
+   [![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/kebasyaty/vizbor/blob/main/DEBIAN_INSTALL_MONGODB.md)
    [![Ubuntu](https://img.shields.io/badge/Ubuntu-ba4319?style=for-the-badge&logo=ubuntu&logoColor=white)](https://github.com/kebasyaty/vizbor/blob/main/UBUNTU_INSTALL_MONGODB.md)
    [![Linux Mint](https://img.shields.io/badge/Linux_Mint-5e902b?style=for-the-badge&logo=linux-mint&logoColor=white)](https://github.com/kebasyaty/vizbor/blob/main/UBUNTU_INSTALL_MONGODB.md)
 
 2. Install additional libraries (if not installed):<br>
    [![Fedora](https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white)](https://github.com/kebasyaty/vizbor/blob/main/FEDORA_ADDITIONAL_LIBRARIES.md)
+   [![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/kebasyaty/vizbor/blob/main/DEBIAN_ADDITIONAL_LIBRARIES.md)
    [![Ubuntu](https://img.shields.io/badge/Ubuntu-ba4319?style=for-the-badge&logo=ubuntu&logoColor=white)](https://github.com/kebasyaty/vizbor/blob/main/UBUNTU_ADDITIONAL_LIBRARIES.md)
    [![Linux Mint](https://img.shields.io/badge/Linux_Mint-5e902b?style=for-the-badge&logo=linux-mint&logoColor=white)](https://github.com/kebasyaty/vizbor/blob/main/UBUNTU_ADDITIONAL_LIBRARIES.md)
 
