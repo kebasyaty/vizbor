@@ -1,4 +1,4 @@
-name: CI
+name: Specs
 
 on:
   push:
@@ -6,13 +6,13 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  tests:
     runs-on: ubuntu-latest
     container:
       image: crystallang/crystal:latest
       options: --user root
     steps:
-      - name: Download source
+      - name: Checkout repository
         uses: actions/checkout@v4
       - name: Install dependencies
         run: shards install
