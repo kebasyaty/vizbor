@@ -86,7 +86,7 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [kebasyaty](https://github.com/kebasyaty) - creator and maintainer
+- [kebasyaty](https://github.com/kebasyaty) Gennady Kostyunin - creator and maintainer
 
 ## Changelog
 
