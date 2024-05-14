@@ -2,11 +2,14 @@ name: vizbor
 version: 0.1.0
 
 authors:
-  - kebasyaty <kebasyaty@gmail.com>
+  - Gennady Kostyunin <kebasyaty@gmail.com>
 
 crystal: ">= 1.12.1, < 2.0"
 
 license: MIT
+
+description: |
+  ???
 
 homepage: https://github.com/kebasyaty/vizbor
 repository: https://github.com/kebasyaty/vizbor
