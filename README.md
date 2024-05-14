@@ -3,7 +3,7 @@
     <a href="https://github.com/kebasyaty/vizbor">
       <img
         alt="Logo"
-        src="https://github.com/kebasyaty/vizbor/raw/main/logo/logo.svg">
+        src="https://raw.githubusercontent.com/kebasyaty/vizbor/main/logo/logo.svg">
     </a>
   </p>
   <p>
@@ -31,7 +31,7 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
 
 <p>
   <a href="https://github.com/kebasyaty/vizbor" alt="Status Project">
-    <img src="https://github.com/kebasyaty/vizbor/raw/main/pictures/status_project/Status_Project-Development-.svg"
+    <img src="https://raw.githubusercontent.com/kebasyaty/vizbor/main/pictures/status_project/Status_Project-Development-.svg"
       alt="Status Project">
   </a>
 </p>
@@ -100,7 +100,7 @@ TODO: Write development instructions here
 <br>
 <div>
   <a href="https://crystal-lang.org/" alt="Made with Crystal">
-    <img width="100%" src="https://github.com/kebasyaty/vizbor/raw/main/pictures/made-with-crystal.svg"
+    <img width="100%" src="https://raw.githubusercontent.com/kebasyaty/vizbor/main/pictures/made-with-crystal.svg"
       alt="Made with Crystal">
   </a>
 </div>
