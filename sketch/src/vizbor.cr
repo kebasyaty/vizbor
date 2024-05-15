@@ -13,9 +13,5 @@ module Vizbor
 
   # https://github.com/kemalcr/kemal
 
-  get "/" do
-    "Hello World!"
-  end
-
-  Kemal.run
+  puts Vizbor::Settings.domain_name
 end
