@@ -13,9 +13,12 @@ module Vizbor::Settings
   # A set of options used to configure the driver.
   # https://elbywan.github.io/cryomongo/Mongo/Options.html
   class_getter mongo_options : Mongo::Options = Mongo::Options.new
+  # https://github.com/crystal-i18n/i18n
   class_getter default_locale : Symbol = :en
+  # Domain names.
   class_getter local_domain : String = "127.0.0.1"
   class_getter site_domain : String = "www.site-name.net"
+  # Port for test server.
   class_getter port : UInt32 = 3000
   # Maximum upload content size for a web form.
   # 1 MB = 1048576 Bytes (in binary).
