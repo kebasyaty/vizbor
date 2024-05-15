@@ -23,7 +23,8 @@ module Vizbor::Settings
   # https://kemalcr.com/guide/
   # Example: {"gzip" => true, "dir_listing" => false}
   class_getter! static_file_options : Hash(String, Bool)
-  # ???
+  # Using Reuse Port for Multiple Kemal Processes.
+  # https://kemalcr.com/cookbook/reuse_port/
   class_getter? server_reuse_port : Bool = false
   # Maximum upload content size for a web form.
   # 1 MB = 1048576 Bytes (in binary).
