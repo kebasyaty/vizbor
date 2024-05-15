@@ -28,6 +28,11 @@ module Vizbor::Settings
   # Using Reuse Port for Multiple Kemal Processes.
   # https://kemalcr.com/cookbook/reuse_port/
   class_getter? server_reuse_port : Bool = false
+  # Use Logging?
+  # https://kemalcr.com/guide/
+  # You can add logging statements to your code:
+  # Example: Log.info { "Log message with or without embedded #{variables}" }
+  class_getter? use_logging : Bool = true
   # Maximum upload content size for a web form.
   # 1 MB = 1048576 Bytes (in binary).
   # Default: 1048576 * 2 = 2097152 = 2 MB
