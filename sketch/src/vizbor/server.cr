@@ -5,11 +5,7 @@ module Vizbor::Server
   # Run Web Server.
   def run : Nil
     # Initialize locale.
-    # NOTE: https://github.com/crystal-i18n/i18n
-    I18n.config.loaders << I18n::Loader::YAML.new("config/locales")
-    I18n.config.default_locale = Vizbor::Settings.default_locale
-    I18n.init
-
+    init_locale
     # Web Server Configuration.
     # NOTE: https://github.com/kemalcr/kemal
     # NOTE: https://kemalcr.com/guide/
@@ -27,5 +23,13 @@ module Vizbor::Server
         reuse_port: Vizbor::Settings.server_reuse_port?,
       )
     end
+  end
+
+  # Initialize locale.
+  # NOTE: https://github.com/crystal-i18n/i18n
+  def init_locale : Nil
+    I18n.config.loaders << I18n::Loader::YAML.new("config/locales")
+    I18n.config.default_locale = Vizbor::Settings.default_locale
+    I18n.init
   end
 end
