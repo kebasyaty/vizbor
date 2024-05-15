@@ -11,6 +11,11 @@ module Vizbor
   I18n.config.default_locale = Vizbor::Settings.default_locale
   I18n.init
 
-  puts Vizbor::Settings.mongo_uri
-  puts Vizbor::Settings.default_locale
+  # https://github.com/kemalcr/kemal
+
+  get "/" do
+    "Hello World!"
+  end
+
+  Kemal.run
 end
