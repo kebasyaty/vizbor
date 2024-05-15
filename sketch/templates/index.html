@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}{{ meta_title }}{% endblock title %}
+
+{% block description %}{{ meta_description }}{% endblock description %}
+
+{% block vendors_css %}
+{{ super() }}
+{% endblock vendors_css %}
+
+{% block head %}
+{{ super() }}
+{% endblock head %}
+
+{% block content %}
+<h1>Home Page</h1>
+{% if not is_authenticated %}
+<h2>You are not authenticated</h2>
+{% else %}
+<h2>You are authenticated</h2>
+{% endif %}
+
+<p><a href="/registration">Registration Page</a></p>
+{% endblock content %}
+
+{% block vendors_js %}
+{{ super() }}
+{% endblock vendors_js %}
