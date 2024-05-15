@@ -1,3 +1,3 @@
 # sketch
 
-Test polygon for the main project.
+Temporary polygon for the main project.
