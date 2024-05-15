@@ -3,6 +3,14 @@ module Vizbor::Server
   extend self
 
   def run : Nil
+    # Initialize locale.
+    # https://github.com/crystal-i18n/i18n
+    I18n.config.loaders << I18n::Loader::YAML.new("config/locales")
+    I18n.config.default_locale = Vizbor::Settings.default_locale
+    I18n.init
+
+    # Web Server Configuration.
+    # https://github.com/kemalcr/kemal
     Kemal.run do |config|
       server = config.server.not_nil!
       server.bind_tcp(
