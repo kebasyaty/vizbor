@@ -1,5 +1,8 @@
 # Settings for your web application.
 module Vizbor::Settings
+  # If true,
+  # an exception page is rendered when an exception is raised which provides a
+  # lot of useful information for debugging.
   class_getter? debug : Bool = true
   # Maximum 44 characters.
   class_getter app_name : String = "AppName"
