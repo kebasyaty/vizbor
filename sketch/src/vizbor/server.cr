@@ -24,7 +24,7 @@ module Vizbor::Server
       server.bind_tcp(
         Vizbor::Settings.domain_name,
         Vizbor::Settings.port,
-        reuse_port: true,
+        reuse_port: Vizbor::Settings.server_reuse_port?,
       )
     end
   end
