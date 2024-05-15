@@ -2,16 +2,17 @@
 module Vizbor::Server
   extend self
 
+  # Run Web Server.
   def run : Nil
     # Initialize locale.
-    # https://github.com/crystal-i18n/i18n
+    # NOTE: https://github.com/crystal-i18n/i18n
     I18n.config.loaders << I18n::Loader::YAML.new("config/locales")
     I18n.config.default_locale = Vizbor::Settings.default_locale
     I18n.init
 
     # Web Server Configuration.
-    # https://github.com/kemalcr/kemal
-    # https://kemalcr.com/guide/
+    # NOTE: https://github.com/kemalcr/kemal
+    # NOTE: https://kemalcr.com/guide/
     #
     public_folder "assets/static"
     unless Vizbor::Settings.static_file_options.nil?
