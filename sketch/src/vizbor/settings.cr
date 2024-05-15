@@ -18,4 +18,8 @@ module Vizbor::Settings
   # 1 MB = 1048576 Bytes (in binary).
   # Default: 1048576 * 2 = 2097152 = 2 MB
   class_getter max_upload_size : UInt32 = 2097152
+  # Security
+  # To generate a key (This is not an advertisement): https://randompasswordgen.com/
+  # Minimum 64 characters.
+  class_getter secret_key : String = "-H%QdH?ga$pLA39P2%86@KjArWp-G6$jA@Zk%nF2+jgZeKq8Wxf-sQL!_mh2wmKQ"
 end
