@@ -9,7 +9,8 @@ crystal: ">= 1.12.1, < 2.0"
 license: MIT
 
 description: |
-  ???
+  Vizbor is a high-level Crystal web framework that encourages rapid development and clean, \
+  pragmatic design. It’s free and open source.
 
 homepage: https://github.com/kebasyaty/vizbor
 repository: https://github.com/kebasyaty/vizbor
