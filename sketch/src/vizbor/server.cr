@@ -11,6 +11,10 @@ module Vizbor::Server
 
     # Web Server Configuration.
     # https://github.com/kemalcr/kemal
+    # https://kemalcr.com/guide/
+    #
+    public_folder : String = "assets/static"
+    #
     Kemal.run do |config|
       server = config.server.not_nil!
       server.bind_tcp(

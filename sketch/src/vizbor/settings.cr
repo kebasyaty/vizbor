@@ -19,6 +19,8 @@ module Vizbor::Settings
   class_getter domain_name : String = @@debug ? "0.0.0.0" : "www.your-site-name.net"
   # Port for test server.
   class_getter port : Int32 = 3000
+  # Static File Options.
+  class_getter static_file_options : Hash | Bool
   # Maximum upload content size for a web form.
   # 1 MB = 1048576 Bytes (in binary).
   # Default: 1048576 * 2 = 2097152 = 2 MB
