@@ -1,6 +1,6 @@
 require "kemal"
 require "dynfork"
-require "./vizbor/settings"
+require "./vizbor/*"
 
 module Vizbor
   VERSION = "0.1.0"
@@ -11,7 +11,6 @@ module Vizbor
   I18n.config.default_locale = Vizbor::Settings.default_locale
   I18n.init
 
-  # https://github.com/kemalcr/kemal
-
-  puts Vizbor::Settings.domain_name
+  # Start Web Server.
+  Vizbor::Server.run
 end
