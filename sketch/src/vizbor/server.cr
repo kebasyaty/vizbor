@@ -10,6 +10,11 @@ module Vizbor::Server
     # NOTE: https://github.com/kemalcr/kemal
     # NOTE: https://kemalcr.com/guide/
     #
+    if Vizbor::Settings.debug?
+      Kemal.config.env = "development"
+    else
+      Kemal.config.env = "production"
+    end
     public_folder "assets/static"
     if Vizbor::Settings.disable_static_files?
       serve_static false
