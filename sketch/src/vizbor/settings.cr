@@ -10,6 +10,9 @@ module Vizbor::Settings
   class_getter! database_name : String
   # https://elbywan.github.io/cryomongo/Mongo/Client.html
   class_getter mongo_uri : String = "mongodb://localhost:27017"
+  # A set of options used to configure the driver.
+  # https://elbywan.github.io/cryomongo/Mongo/Options.html
+  class_getter mongo_options : Mongo::Options = Mongo::Options.new
   class_getter default_locale : Symbol = :en
   class_getter local_domain : String = "127.0.0.1"
   class_getter site_domain : String = "www.site-name.net"
