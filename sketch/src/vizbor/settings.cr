@@ -7,7 +7,7 @@ module Vizbor::Settings
   # To generate a key (This is not an advertisement): https://randompasswordgen.com/
   class_getter unique_app_key : String = "5yh83a5yn7py97j8"
   # Maximum 60 characters.
-  class_getter! database_name : String?
+  class_getter! database_name : String
   # https://elbywan.github.io/cryomongo/Mongo/Client.html
   class_getter mongo_uri : String = "mongodb://localhost:27017"
   # A set of options used to configure the driver.
@@ -22,7 +22,7 @@ module Vizbor::Settings
   # Static File Options.
   # https://kemalcr.com/guide/
   # Example: {"gzip" => true, "dir_listing" => false}
-  class_getter! static_file_options : Hash(String, Bool)?
+  class_getter! static_file_options : Hash(String, Bool)
   # Maximum upload content size for a web form.
   # 1 MB = 1048576 Bytes (in binary).
   # Default: 1048576 * 2 = 2097152 = 2 MB
