@@ -14,6 +14,9 @@ module Vizbor::Server
     # https://kemalcr.com/guide/
     #
     public_folder "assets/static"
+    unless Vizbor::Settings.static_file_options.nil?
+      serve_static(Vizbor::Settings.static_file_options)
+    end
     #
     Kemal.run do |config|
       server = config.server.not_nil!
