@@ -6,7 +6,7 @@ module Vizbor::Server
   def run : Nil
     # Initialize locale.
     init_locale
-    # Web Server Configuration.
+    # Web Server Configuration and start.
     # NOTE: https://github.com/kemalcr/kemal
     # NOTE: https://kemalcr.com/guide/
     #
@@ -14,7 +14,6 @@ module Vizbor::Server
     unless Vizbor::Settings.static_file_options?.nil?
       serve_static(Vizbor::Settings.static_file_options)
     end
-    #
     Kemal.run do |config|
       server = config.server.not_nil!
       server.bind_tcp(
