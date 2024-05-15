@@ -1,6 +1,6 @@
 require "./spec_helper"
 
-describe Sketch do
+describe Vizbor do
   it "works" do
     true.should eq(true)
   end
