@@ -1,2 +1,2 @@
 require "spec"
-require "../src/sketch"
+require "../src/vizbor"

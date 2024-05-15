@@ -1,6 +1,6 @@
 require "kemal"
 require "dynfork"
-require "./sketch/settings"
+require "./vizbor/settings"
 
 module Vizbor
   VERSION = "0.1.0"
