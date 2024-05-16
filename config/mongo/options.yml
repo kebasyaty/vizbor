@@ -1,4 +1,8 @@
-# ???
+# Mongo Driver Options
+# For fields of type Time::Span use example: 10.seconds
+# For reference:
+# https://elbywan.github.io/cryomongo/Mongo/Client.html
+# https://elbywan.github.io/cryomongo/Mongo/Options.html
 uri: mongodb://localhost:27017
 options:
   appname:
