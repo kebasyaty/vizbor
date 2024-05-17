@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+
+{% block title %}{{ meta_title }}{% endblock title %}
+
+{% block description %}{{ meta_description }}{% endblock description %}
+
+{% block vendors_css %}
+{{ super() }}
+<style type="text/css">
+    .hint {
+        color: #546E7A;
+    }
+
+    .warning {
+        color: #FFB300;
+    }
+
+    .error {
+        color: #E53935;
+    }
+</style>
+{% endblock vendors_css %}
+
+{% block head %}
+{{ super() }}
+{% endblock head %}
+
+{% block content %}
+<h1>Registration Page</h1>
+
+<p><a href="/">Home Page</a></p>
+
+<!-- Registration Form -->
+<form id="User-RegistrationForm" action="/users/registration" method="post" enctype="multipart/form-data">
+    {% set username = user.username -%}
+    <p>
+        <label>{{ username.label }}<br>
+            <input id="{{ username.id }}" type="{{ username.input_type }}" name="{{ username.name }}"
+                value="{{ username.value | default(value='') }}" {% if username.required %}required{% endif %}
+                maxlength="{{ username.maxlength | default(value='') }}" />
+            {% if username.hint %}<br><span class="hint">{{ username.hint | safe }}</span>{% endif %}
+            {% if username.warning %}<br><span class="warning">{{ username.warning | safe }}</span>{% endif %}
+            {% if username.error %}<br><span class="error">{{ username.error | safe }}</span>{% endif %}
+        </label>
+    </p>
+    {% set photo = user.photo -%}
+    <p>
+        <label>{{ photo.label }}<br>
+            <input id="{{ photo.id }}" type="{{ photo.input_type }}" name="{{ photo.name }}"
+                accept="{{ photo.accept }}" />
+            {% if photo.hint %}<br><span class="hint">{{ photo.hint | safe }}</span>{% endif %}
+            {% if photo.warning %}<br><span class="warning">{{ photo.warning | safe }}</span>{% endif %}
+            {% if photo.error %}<br><span class="error">{{ photo.error | safe }}</span>{% endif %}
+        </label>
+    </p>
+    {% set first_name = user.first_name -%}
+    <p>
+        <label>{{ first_name.label }}<br>
+            <input id="{{ first_name.id }}" type="{{ first_name.input_type }}" name="{{ first_name.name }}"
+                value="{{ first_name.value | default(value='') }}"
+                maxlength="{{ first_name.maxlength | default(value='') }}" />
+            {% if first_name.hint %}<br><span class="hint">{{ first_name.hint | safe }}</span>{% endif %}
+            {% if first_name.warning %}<br><span class="warning">{{ first_name.warning | safe }}</span>{% endif
+            %}
+            {% if first_name.error %}<br><span class="error">{{ first_name.error | safe }}</span>{% endif %}
+        </label>
+    </p>
+    {% set last_name = user.last_name -%}
+    <p>
+        <label>{{ last_name.label }}<br>
+            <input id="{{ last_name.id }}" type="{{ last_name.input_type }}" name="{{ last_name.name }}"
+                value="{{ last_name.value | default(value='') }}"
+                maxlength="{{ last_name.maxlength | default(value='') }}" />
+            {% if last_name.hint %}<br><span class="hint">{{ last_name.hint | safe }}</span>{% endif %}
+            {% if last_name.warning %}<br><span class="warning">{{ last_name.warning | safe }}</span>{% endif %}
+            {% if last_name.error %}<br><span class="error">{{ last_name.error | safe }}</span>{% endif %}
+        </label>
+    </p>
+    {% set email = user.email -%}
+    <p>
+        <label>{{ email.label }}<br>
+            <input id="{{ email.id }}" type="{{ email.input_type }}" name="{{ email.name }}"
+                value="{{ email.value | default(value='') }}" {% if email.required %}required{% endif %}
+                maxlength="{{ email.maxlength | default(value='') }}" />
+            {% if email.hint %}<br><span class="hint">{{ email.hint | safe }}</span>{% endif %}
+            {% if email.warning %}<br><span class="warning">{{ email.warning | safe }}</span>{% endif %}
+            {% if email.error %}<br><span class="error">{{ email.error | safe }}</span>{% endif %}
+        </label>
+    </p>
+    {% set phone = user.phone -%}
+    <p>
+        <label>{{ phone.label }}<br>
+            <input id=" {{ phone.id }}" type="{{ phone.input_type }}" name="{{ phone.name }}"
+                value="{{ phone.value | default(value='') }}" maxlength="{{ phone.maxlength | default(value='') }}" />
+            {% if phone.hint %}<br><span class="hint">{{ phone.hint | safe }}</span>{% endif %}
+            {% if phone.warning %}<br><span class="warning">{{ phone.warning | safe }}</span>{% endif %}
+            {% if phone.error %}<br><span class="error">{{ phone.error | safe }}</span>{% endif %}
+        </label>
+    </p>
+    {% set password = user.password -%}
+    <p>
+        <label>{{ password.label }}<br>
+            <input id="{{ password.id }}" type="{{ password.input_type }}" name="{{ password.name }}"
+                value="{{ password.value | default(value='') }}" {% if password.required %}required{% endif %}
+                minlength="{{ password.minlength }}" maxlength="{{ password.maxlength }}" />
+            {% if password.hint %}<br><span class="hint">{{ password.hint | safe }}</span>{% endif %}
+            {% if password.warning %}<br><span class="warning">{{ password.warning | safe }}</span>{% endif %}
+            {% if password.error %}<br><span class="error">{{ password.error | safe }}</span>{% endif %}
+        </label>
+    </p>
+    {% set confirm_password = user.confirm_password -%}
+    <p>
+        <label>{{ confirm_password.label }}<br>
+            <input id="{{ confirm_password.id }}" type="{{ confirm_password.input_type }}"
+                name="{{ confirm_password.name }}" value="{{ confirm_password.value | default(value='') }}" {% if
+                confirm_password.required %}required{% endif %} minlength="{{ password.minlength }}"
+                maxlength="{{ password.maxlength }}" />
+            {% if confirm_password.hint %}<br><span class="hint">{{ confirm_password.hint | safe }}</span>{% endif %}
+            {% if confirm_password.warning %}<br><span class="warning">{{ confirm_password.warning | safe
+                }}</span>{% endif %}
+            {% if confirm_password.error %}<br><span class="error">{{ confirm_password.error | safe }}</span>{%
+            endif %}
+        </label>
+    </p>
+    {% set is_seller = user.is_seller -%}
+    <p>
+        <label>{{ is_seller.label }}<br>
+            <input id="{{ is_seller.id }}" type="{{ is_seller.input_type }}" name="{{ is_seller.name }}"
+                value="{{ is_seller.value | default(value='') }}" {% if is_seller.checked %}checked{% endif %} />
+            {% if is_seller.hint %}<br><span class="hint">{{ is_seller.hint | safe }}</span>{% endif %}
+            {% if is_seller.warning %}<br><span class="warning">{{ is_seller.warning | safe }}</span>{% endif %}
+            {% if is_seller.error %}<br><span class="error">{{ is_seller.error | safe }}</span>{% endif %}
+        </label>
+    </p>
+    {% set is_customer = user.is_customer -%}
+    <p>
+        <label>{{ is_customer.label }}<br>
+            <input id="{{ is_customer.id }}" type="{{ is_customer.input_type }}" name="{{ is_customer.name }}"
+                value="{{ is_customer.value | default(value='') }}" {% if is_customer.checked %}checked{% endif %} />
+            {% if is_customer.hint %}<br><span class="hint">{{ is_customer.hint | safe }}</span>{% endif %}
+            {% if is_customer.warning %}<br><span class="warning">{{ is_customer.warning | safe }}</span>{% endif
+            %}
+            {% if is_customer.error %}<br><span class="error">{{ is_customer.error | safe }}</span>{% endif %}
+        </label>
+    </p>
+    <p><input type="submit" value="Registration" /></p>
+</form>
+{% endblock content %}
+
+{% block vendors_js %}
+{{ super() }}
+<script>
+    if ("{{ user.hash.alert }}".length > 0) {
+        alert("{{ user.hash.alert }}");
+    }
+</script>
+{% endblock vendors_js %}
