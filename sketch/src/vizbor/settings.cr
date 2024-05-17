@@ -5,17 +5,12 @@ module Vizbor::Settings
   # lot of useful information for debugging.
   class_getter? debug : Bool = true
   # Maximum 44 characters.
-  class_getter app_name : String = "AppName"
+  class_getter app_name : String = "Vizbor"
   # Match regular expression: /^[a-zA-Z0-9]{16}$/
   # To generate a key (This is not an advertisement): https://randompasswordgen.com/
-  class_getter unique_app_key : String = "5yh83a5yn7py97j8"
+  class_getter unique_app_key : String = "qZXd7YNMC2VwMTkX"
   # Maximum 60 characters.
   class_getter! database_name : String
-  # https://elbywan.github.io/cryomongo/Mongo/Client.html
-  class_getter mongo_uri : String = "mongodb://localhost:27017"
-  # A set of options used to configure the driver.
-  # https://elbywan.github.io/cryomongo/Mongo/Options.html
-  class_getter mongo_options : Mongo::Options = Mongo::Options.new
   # https://github.com/crystal-i18n/i18n
   class_getter default_locale : Symbol = :en
   # Domain names.
@@ -43,5 +38,5 @@ module Vizbor::Settings
   # Security
   # To generate a key (This is not an advertisement): https://randompasswordgen.com/
   # Minimum 64 characters.
-  class_getter secret_key : String = "-H%QdH?ga$pLA39P2%86@KjArWp-G6$jA@Zk%nF2+jgZeKq8Wxf-sQL!_mh2wmKQ"
+  class_getter secret_key : String = "2Osn#3+]~/)Ah=d,5[}3eL@X?TyTp}GCEyO`$ULA&)/C-R*S5Y&x2sb9l:TTD'zI"
 end
