@@ -21,3 +21,6 @@ dependencies:
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
+  vizbor-cli:
+    github: kebasyaty/vizbor-cli
+    branch: v0
