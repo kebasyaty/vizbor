@@ -62,9 +62,15 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
        github: kebasyaty/vizbor
    ```
 
-4. Run `shards install && cp bin/vizbor-cli ~/.local/bin/vizbor`
+4. Install dependencies and initialize the project:
 
-5. Run `vizbor --init`
+    ```shell
+    shards install
+    bin/vcli --init
+    # or
+    shards install && cp bin/vcli ~/.local/bin/vizbor
+    vizbor --init
+    ```
 
 ## Usage
 
@@ -73,10 +79,6 @@ require "vizbor"
 ```
 
 TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
