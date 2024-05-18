@@ -27,3 +27,4 @@ development_dependencies:
     github: crystal-ameba/ameba
   vcli:
     github: kebasyaty/vcli
+
