@@ -62,7 +62,7 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
        github: kebasyaty/vizbor
    ```
 
-4. Run
+4. Run:
 
     ```shell
     shards install
