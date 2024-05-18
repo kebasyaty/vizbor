@@ -62,9 +62,15 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
        github: kebasyaty/vizbor
    ```
 
-4. Run `shards install && cp bin/vizbor-cli ~/.local/bin/vizbor`
+4. Run
 
-5. Run `vizbor --init`
+    ```shell
+    shards install
+    bin/vcli --init
+    # or
+    shards install && cp bin/vcli ~/.local/bin/vizbor
+    vizbor --init
+    ```
 
 ## Usage
 

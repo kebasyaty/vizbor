@@ -8,7 +8,7 @@ module Vizbor::Settings
   class_getter app_name : String = "Vizbor"
   # Match regular expression: /^[a-zA-Z0-9]{16}$/
   # To generate a key (This is not an advertisement): https://randompasswordgen.com/
-  class_getter unique_app_key : String = "qZXd7YNMC2VwMTkX"
+  class_getter unique_app_key : String = "x72Brr6GCFXJHJrv"
   # Maximum 60 characters.
   class_getter! database_name : String
   # https://github.com/crystal-i18n/i18n
@@ -38,5 +38,5 @@ module Vizbor::Settings
   # Security
   # To generate a key (This is not an advertisement): https://randompasswordgen.com/
   # Minimum 64 characters.
-  class_getter secret_key : String = "2Osn#3+]~/)Ah=d,5[}3eL@X?TyTp}GCEyO`$ULA&)/C-R*S5Y&x2sb9l:TTD'zI"
+  class_getter secret_key : String = "CrXI=Bfiz2D$vo!XC}?`#ZRS|d-uFq:<I7sV@;9dJ+Y}{t`_91c}CMjI}1liN1gn"
 end
