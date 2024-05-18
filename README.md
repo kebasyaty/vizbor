@@ -74,10 +74,6 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
 
 ## Usage
 
-```crystal
-require "vizbor"
-```
-
 TODO: Write usage instructions here
 
 ## Contributing
