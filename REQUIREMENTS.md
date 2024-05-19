@@ -1,3 +1,5 @@
 - [ameba](https://github.com/crystal-ameba/ameba "ameba")
 - [kemal](https://github.com/kemalcr/kemal "kemal")
 - [dynfork](https://github.com/kebasyaty/dynfork "dynfork")
+- [vcli](https://github.com/kebasyaty/vcli "vcli")
+
