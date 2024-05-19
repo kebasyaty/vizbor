@@ -60,6 +60,12 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
    dependencies:
      vizbor:
        github: kebasyaty/vizbor
+   
+   development_dependencies:
+     ameba:
+       github: crystal-ameba/ameba
+     vcli:
+       github: kebasyaty/vcli
    ```
 
 4. Install dependencies and initialize the project:
