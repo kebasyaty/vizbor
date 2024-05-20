@@ -49,10 +49,15 @@ module Vizbor::Server
   # Run migration.
   # https://elbywan.github.io/cryomongo/Mongo/Client.html
   def run_migration : Nil
+    mongo_data = Vizbor::MongoOptions.mongo_options
     DynFork::Migration::Monitor.new(
       app_name: Vizbor::Settings.app_name,
       unique_app_key: Vizbor::Settings.unique_app_key,
-      mongo_client: Mongo::Client.new("mongodb://localhost:27017")
+      database_name: Vizbor::Settings.database_name,
+      mongo_client: Mongo::Client.new(
+        connection_string: mongo_data[:uri],
+        options: Mongo::Options.new(mongo_data[:options]),
+      )
     ).migrat
   end
 end
