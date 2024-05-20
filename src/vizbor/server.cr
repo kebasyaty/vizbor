@@ -6,6 +6,8 @@ module Vizbor::Server
   def run : Nil
     # Initialize locale.
     init_locale
+    # Run migration.
+    run_migration
     # Web Server Configuration and start.
     # NOTE: https://github.com/kemalcr/kemal
     # NOTE: https://kemalcr.com/guide/
@@ -42,5 +44,20 @@ module Vizbor::Server
     I18n.config.loaders << I18n::Loader::YAML.new("config/locales")
     I18n.config.default_locale = Vizbor::Settings.default_locale
     I18n.init
+  end
+
+  # Run migration.
+  # https://elbywan.github.io/cryomongo/Mongo/Client.html
+  def run_migration : Nil
+    mongo_data = Vizbor::MongoOptions.mongo_options
+    DynFork::Migration::Monitor.new(
+      app_name: Vizbor::Settings.app_name,
+      unique_app_key: Vizbor::Settings.unique_app_key,
+      database_name: Vizbor::Settings.database_name,
+      mongo_client: Mongo::Client.new(
+        connection_string: mongo_data[:uri],
+        options: Mongo::Options.new(mongo_data[:options]),
+      )
+    ).migrat
   end
 end
