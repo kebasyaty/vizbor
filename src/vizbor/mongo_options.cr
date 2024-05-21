@@ -44,7 +44,8 @@ module Vizbor::MongoOptions
       zlib_compression_level: Int32?,
     ))
 
-  def mongo_driver_options : NamedTuple(uri: String, options: Mongo::Options)
+  # Generate driver options.
+  def generate_options : NamedTuple(uri: String, options: Mongo::Options)
     yaml : String = File.read("config/mongo/options.yml")
     raw_options = RawMongoDriverOptions.from_yaml(yaml)
 
