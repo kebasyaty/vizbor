@@ -31,7 +31,7 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
 
 <p>
   <a href="https://github.com/kebasyaty/vizbor" alt="Status Project">
-    <img src="https://raw.githubusercontent.com/kebasyaty/vizbor/main/pictures/status_project/Status_Project-Development-.svg"
+    <img src="https://raw.githubusercontent.com/kebasyaty/vizbor/main/pictures/status_project/Status_Project-Alpha-.svg"
       alt="Status Project">
   </a>
 </p>
@@ -60,7 +60,7 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
    dependencies:
      vizbor:
        github: kebasyaty/vizbor
-   
+
    development_dependencies:
      ameba:
        github: crystal-ameba/ameba
@@ -70,13 +70,13 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
 
 4. Install dependencies and initialize the project:
 
-    ```shell
-    shards install
-    bin/vcli --init AppName
-    # or
-    shards install && cp bin/vcli ~/.local/bin/vizbor
-    vizbor --init AppName
-    ```
+   ```shell
+   shards install
+   bin/vcli --init AppName
+   # or
+   shards install && cp bin/vcli ~/.local/bin/vizbor
+   vizbor --init AppName
+   ```
 
 ## Usage
 
