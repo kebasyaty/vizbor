@@ -50,7 +50,7 @@ module Vizbor::MongoOptions
     raw_options = RawMongoDriverOptions.from_yaml(yaml)
 
     {
-      uri:     raw_options.uri,
+      uri:     raw_options[:uri],
       options: Mongo::Options.new(
         appname: raw_options[:options][:appname],
         auth_mechanism: raw_options[:options][:auth_mechanism],
