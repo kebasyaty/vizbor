@@ -1,4 +1,5 @@
 require "kemal"
+require "kemal-csrf"
 require "dynfork"
 require "./vizbor/*"
 
