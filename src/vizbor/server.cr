@@ -55,8 +55,8 @@ module Vizbor::Server
       unique_app_key: Vizbor::Settings.unique_app_key,
       database_name: Vizbor::Settings.database_name,
       mongo_client: Mongo::Client.new(
-        connection_string: mongo_data[:uri],
-        options: Mongo::Options.new(mongo_data[:options]),
+        connection_string: Vizbor::Settings.mongo_uri,
+        options: Vizbor::Settings.mongo_options,
       )
     ).migrat
   end
