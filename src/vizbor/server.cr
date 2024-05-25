@@ -18,7 +18,7 @@ module Vizbor::Server
       Kemal.config.env = "production"
     end
     #
-    public_folder "assets/static"
+    public_folder "public"
     #
     if Vizbor::Settings.disable_static_files?
       serve_static false
