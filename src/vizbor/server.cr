@@ -1,13 +1,15 @@
 # https://github.com/kemalcr/kemal
-module Vizbor::Server
+module Vizbor::WebServer
   extend self
 
   # Run Web Server.
   def run : Nil
     # Initialize locale.
     init_locale
+
     # Run migration.
     run_migration
+
     # Web Server Configuration and start.
     # NOTE: https://github.com/kemalcr/kemal
     # NOTE: https://kemalcr.com/guide/
