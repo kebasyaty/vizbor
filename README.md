@@ -64,6 +64,8 @@ _For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
    development_dependencies:
      ameba:
        github: crystal-ameba/ameba
+     spec-kemal:
+       github: kemalcr/spec-kemal
      vcli:
        github: kebasyaty/vcli
    ```

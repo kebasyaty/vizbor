@@ -21,6 +21,8 @@ dependencies:
     github: kemalcr/kemal
   kemal-csrf:
     github: kemalcr/kemal-csrf
+  kemal-session:
+    github: kemalcr/kemal-session
   dynfork:
     github: kebasyaty/dynfork
 
