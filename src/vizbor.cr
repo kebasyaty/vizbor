@@ -1,6 +1,6 @@
 require "kemal"
-require "kemal-session"
 require "kemal-csrf"
+require "kemal-session"
 require "dynfork"
 require "./vizbor/*"
 
