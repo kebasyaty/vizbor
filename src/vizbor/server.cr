@@ -22,20 +22,20 @@ module Vizbor::WebServer
     #
     public_folder "public"
     #
-    if Vizbor::Settings.disable_static_files?
+    if Vizbor::Settings::Kemal.disable_static_files?
       serve_static false
-    elsif !Vizbor::Settings.static_file_options?.nil?
+    elsif !Vizbor::Settings::Kemal.static_file_options?.nil?
       serve_static(Vizbor::Settings.static_file_options)
     end
     #
-    logging(false) unless Vizbor::Settings.use_logging?
+    logging(false) unless Vizbor::Settings::Kemal.use_logging?
     #
     Kemal.run do |config|
       server = config.server.not_nil!
       server.bind_tcp(
         Vizbor::Settings.host,
         Vizbor::Settings.port,
-        reuse_port: Vizbor::Settings.server_reuse_port?,
+        reuse_port: Vizbor::Settings::Kemal.server_reuse_port?,
       )
     end
   end
