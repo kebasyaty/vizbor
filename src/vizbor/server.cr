@@ -25,7 +25,7 @@ module Vizbor::WebServer
     if Vizbor::Settings::Kemal.disable_static_files?
       serve_static false
     elsif !Vizbor::Settings::Kemal.static_file_options?.nil?
-      serve_static(Vizbor::Settings.static_file_options)
+      serve_static(Vizbor::Settings::Kemal.static_file_options)
     end
     #
     logging(false) unless Vizbor::Settings::Kemal.use_logging?
