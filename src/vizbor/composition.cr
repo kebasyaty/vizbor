@@ -16,4 +16,9 @@ module Vizbor::Composition
   def add(composition : ServiceComposition) : Nil
     @@menu_structure << composition
   end
+
+  def json : String
+    result = @@menu_structure.to_json
+    result
+  end
 end
