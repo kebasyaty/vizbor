@@ -1,5 +1,8 @@
-module Vizbor::Types
-  type ServiceСomposition = {
+# Menu structure for the admin panel.
+module Vizbor::Composition
+  extend self
+
+  type ServiceComposition = {
     service:     {title: String, icon: String},
     collections: [
       {
@@ -10,5 +13,5 @@ module Vizbor::Types
     ],
   }
 
-  type ServiceListСomposition = [ServiceСomposition]
+  class_getter menu_structure : Array(ServiceComposition) = Array(ServiceComposition).new
 end
