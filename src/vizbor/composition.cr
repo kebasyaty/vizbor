@@ -14,4 +14,8 @@ module Vizbor::Composition
   }
 
   class_getter menu_structure : Array(ServiceComposition) = Array(ServiceComposition).new
+
+  def add(composition : ServiceComposition) : Nil
+    @@menu_structure << composition
+  end
 end
