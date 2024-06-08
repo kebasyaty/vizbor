@@ -16,7 +16,7 @@ module Vizbor::Composition
     def self.composition : Vizbor::Composition::Service
       # Empty example
       {
-        service:     {title: "???", icon: "account-multiple"},
+        service:     {title: "???", icon: "help"},
         collections: [
           {
             title:     "???",
