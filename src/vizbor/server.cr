@@ -10,6 +10,9 @@ module Vizbor::WebServer
     # Run migration.
     run_migration
 
+    # ???
+    Vizbor::Init.run
+
     # Web Server Configuration and start.
     # NOTE: https://github.com/kemalcr/kemal
     # NOTE: https://kemalcr.com/guide/
