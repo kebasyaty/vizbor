@@ -20,7 +20,7 @@ module Vizbor::Composition
         collections: [
           {
             title:     "???",
-            model_key: "???",
+            model_key: "???", # Vizbor::Services::<ServiceName>::Models::<ModelName>.full_model_name,
             fields:    [
               {field: "???", title: "???"},
             ],
