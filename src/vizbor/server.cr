@@ -10,7 +10,7 @@ module Vizbor::WebServer
     # Run migration.
     run_migration
 
-    # ???
+    # Execute all pre-code in services.
     Vizbor::Init.run
 
     # Web Server Configuration and start.

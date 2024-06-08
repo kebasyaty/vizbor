@@ -1,6 +1,4 @@
 module Vizbor
-  extend self
-
   # ???
   abstract struct Init
     # ???
@@ -8,7 +6,7 @@ module Vizbor
       # Some code ...
     end
 
-    # ???
+    # Execute all pre-code in services.
     def self.run
       subclasses = {{@type.subclasses}}
       subclasses.each do |item|
