@@ -14,7 +14,19 @@ module Vizbor::Composition
   abstract struct AdminPanelMenu
     # Add service composition
     def self.composition : Vizbor::Composition::Service
-      # Your service composition ...
+      # Empty example
+      {
+        service:     {title: "???", icon: "account-multiple"},
+        collections: [
+          {
+            title:     "???",
+            model_key: "???",
+            fields:    [
+              {field: "???", title: "???"},
+            ],
+          },
+        ],
+      }
     end
 
     # Get composition of service list
