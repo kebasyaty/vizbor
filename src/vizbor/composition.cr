@@ -19,12 +19,11 @@ module Vizbor::Composition
       # Your service composition ...
     end
 
-    def self.subclasses
-      {{@type.subclasses}}
-    end
-
     def json : String
-      # ...
+      subclasses = {{@type.subclasses}}
+      subclasses.each do |service|
+        @@menu << service.composition
+      end
     end
   end
 end
