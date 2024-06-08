@@ -16,7 +16,7 @@ module Vizbor::Composition
 
     # Add service composition
     def self.composition : Vizbor::Composition::Service
-      # ...
+      # Your service composition ...
     end
 
     def self.subclasses
