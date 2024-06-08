@@ -24,6 +24,7 @@ module Vizbor::Composition
       subclasses.each do |service|
         @@menu << service.composition
       end
+      @@menu.to_json
     end
   end
 end
