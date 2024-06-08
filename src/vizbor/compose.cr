@@ -1,8 +1,8 @@
 # Menu structure for the admin panel.
-module Vizbor::Composition
+module Vizbor
   extend self
 
-  alias Service = NamedTuple(
+  alias Composition = NamedTuple(
     service: NamedTuple(title: String, icon: String),
     collections: Array(NamedTuple(
       title: String,
@@ -11,9 +11,9 @@ module Vizbor::Composition
     )),
   )
 
-  abstract struct AdminPanelMenu
+  abstract struct Compose
     # Add service composition
-    def self.composition : Vizbor::Composition::Service
+    def self.composition : Vizbor::Composition
       # WARNING: Get icon name (for service) - https://materialdesignicons.com/
       # Empty example:
       {
@@ -31,8 +31,8 @@ module Vizbor::Composition
     end
 
     # Get composition of service list
-    def self.get : Array(Service)
-      ap_menu : Array(Service) = Array(Service).new
+    def self.get : Array(Vizbor::Composition)
+      ap_menu : Array(Vizbor::Composition) = Array(Vizbor::Composition).new
       subclasses = {{@type.subclasses}}
       subclasses.each do |service|
         ap_menu << service.composition
