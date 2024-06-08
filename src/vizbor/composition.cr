@@ -12,18 +12,19 @@ module Vizbor::Composition
   )
 
   abstract struct AdminPanelMenu
-    @@menu : Array(Service) = Array(Service).new
-
+    # Add service composition
     def self.composition : Vizbor::Composition::Service
       # Your service composition ...
     end
 
-    def self.json : Array(Service)
+    # Get composition of service list
+    def self.get : Array(Service)
+      menu : Array(Service) = Array(Service).new
       subclasses = {{@type.subclasses}}
       subclasses.each do |service|
-        @@menu << service.composition
+        menu << service.composition
       end
-      @@menu
+      menu
     end
   end
 end
