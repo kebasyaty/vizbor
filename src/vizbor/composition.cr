@@ -2,7 +2,7 @@
 module Vizbor::Composition
   extend self
 
-  alias ServiceComposition = NamedTuple(
+  alias Service = NamedTuple(
     service: NamedTuple(title: String, icon: String),
     collections: Array(NamedTuple(
       title: String,
@@ -11,14 +11,20 @@ module Vizbor::Composition
     )),
   )
 
-  class_getter menu_structure : Array(ServiceComposition) = Array(ServiceComposition).new
+  abstract struct AdminPanelMenu
+    @@menu : Array(Service) = Array(Service).new
 
-  def add(composition : ServiceComposition) : Nil
-    @@menu_structure << composition
-  end
+    # Add service composition
+    def self.composition : Vizbor::Composition::Service
+      # ...
+    end
 
-  def json : String
-    result = @@menu_structure.to_json
-    result
+    def self.subclasses
+      {{@type.subclasses}}
+    end
+
+    def json : String
+      # ...
+    end
   end
 end
