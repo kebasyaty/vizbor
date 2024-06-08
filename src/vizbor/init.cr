@@ -1,7 +1,7 @@
 module Vizbor
   # ???
   abstract struct Init
-    # ???
+    # Add a preliminary code of service.
     def self.your_code
       # Some code ...
     end
