@@ -1,5 +1,5 @@
 module Vizbor
-  # ???
+  # Code that must be executed before the web server starts.
   abstract struct Init
     # Add a preliminary code of service.
     def self.your_code
