@@ -14,7 +14,8 @@ module Vizbor::Composition
   abstract struct AdminPanelMenu
     # Add service composition
     def self.composition : Vizbor::Composition::Service
-      # Empty example
+      # WARNING: Get icon name (for service) - https://materialdesignicons.com/
+      # Empty example:
       {
         service:     {title: "???", icon: "help"},
         collections: [
