@@ -2,7 +2,7 @@
 module Vizbor
   extend self
 
-  alias Composition = NamedTuple(
+  alias CompositionType = NamedTuple(
     service: NamedTuple(title: String, icon: String),
     collections: Array(NamedTuple(
       title: String,
@@ -11,9 +11,9 @@ module Vizbor
     )),
   )
 
-  abstract struct Compose
+  abstract struct Composition
     # Add service composition
-    def self.composition : Vizbor::Composition
+    def self.composition : Vizbor::CompositionType
       # WARNING: Get icon name (for service) - https://materialdesignicons.com/
       # Empty example:
       {
@@ -31,8 +31,8 @@ module Vizbor
     end
 
     # Get composition of service list
-    def self.get : Array(Vizbor::Composition)
-      ap_menu : Array(Vizbor::Composition) = Array(Vizbor::Composition).new
+    def self.get : Array(Vizbor::CompositionType)
+      ap_menu : Array(Vizbor::CompositionType) = Array(Vizbor::CompositionType).new
       subclasses = {{@type.subclasses}}
       subclasses.each do |service|
         ap_menu << service.composition
