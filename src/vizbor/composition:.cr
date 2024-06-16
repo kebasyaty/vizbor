@@ -13,7 +13,7 @@ module Vizbor
 
   abstract struct MenuComposition
     # Add service composition
-    def self.composition : Vizbor::MenuCompositionType
+    def self.composition : Vizbor::MenuCompositionType?
       # WARNING: Get icon name (for service) - https://materialdesignicons.com/
       # Empty example:
       {
@@ -32,12 +32,14 @@ module Vizbor
 
     # Get composition of service list
     def self.get : Array(Vizbor::MenuCompositionType)
-      ap_menu = Array(Vizbor::MenuCompositionType).new
+      service_list = Array(Vizbor::MenuCompositionType).new
       subclasses = {{@type.subclasses}}
       subclasses.each do |service|
-        ap_menu << service.composition
+        if composition = service.composition
+          service_list << composition.not_nil!
+        end
       end
-      ap_menu
+      service_list
     end
   end
 end
