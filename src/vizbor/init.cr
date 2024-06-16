@@ -7,7 +7,7 @@ module Vizbor
     end
 
     # Execute all pre-code in services.
-    def self.run
+    def self.run : Nil
       subclasses = {{@type.subclasses}}
       subclasses.each do |item|
         item.some_code
