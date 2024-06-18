@@ -36,7 +36,7 @@ module Vizbor::WebServer
     Kemal.run do |config|
       server = config.server.not_nil!
       server.bind_tcp(
-        Vizbor::Settings.host,
+        Vizbor::Settings.host.split(":").first,
         Vizbor::Settings.port,
         reuse_port: Vizbor::Settings::Kemal.server_reuse_port?,
       )
