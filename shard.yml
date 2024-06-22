@@ -19,13 +19,17 @@ documentation: https://kebasyaty.github.io/vizbor/
 dependencies:
   kemal:
     github: kemalcr/kemal
+    version: ~> 1.5.0
   kemal-csrf:
     github: kemalcr/kemal-csrf
+    version: ~> 1.1.0
   kemal-session:
     github: kemalcr/kemal-session
+    version: ~> 1.0.0
   dynfork:
     github: kebasyaty/dynfork
 
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
+    version: ~> 1.6.1
