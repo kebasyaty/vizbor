@@ -1,5 +1,5 @@
 # https://github.com/kemalcr/kemal
-module Vizbor::WebServer
+module Vizbor::Server
   extend self
 
   # Run Web Server.
