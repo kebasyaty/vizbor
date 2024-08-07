@@ -28,7 +28,7 @@ dependencies:
     version: ~> 1.0.0
   dynfork:
     github: kebasyaty/dynfork
-    version: ~> 0.7.10
+    version: ~> 0.7.11
 
 development_dependencies:
   ameba:
