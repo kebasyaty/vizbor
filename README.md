@@ -25,16 +25,16 @@
 
 <hr>
 
-_Vizbor is based on the lightning fast, super simple Kemal web framework._
-<br>
-_For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
-
 <p>
   <a href="https://github.com/kebasyaty/vizbor" alt="Status Project">
     <img src="https://raw.githubusercontent.com/kebasyaty/vizbor/main/pictures/status_project/Status_Project-Development-.svg"
       alt="Status Project">
   </a>
 </p>
+
+_Vizbor is based on the lightning fast, super simple Kemal web framework._
+<br>
+_For more information see [Kemal](https://github.com/kemalcr/kemal "Kemal")_.
 
 ## Requirements
 
