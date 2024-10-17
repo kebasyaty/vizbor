@@ -23,6 +23,7 @@ module Vizbor
       #       title:     "???",
       #       model_key: "???", # Vizbor::Services::<ServiceName>::Models::<ModelName>.full_model_name,
       #       fields:    [
+      #         # WARNING: The first field is necessarily textual related to the name of the document.
       #         {field: "???", title: "???"},
       #       ],
       #     },
