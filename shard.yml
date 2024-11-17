@@ -19,10 +19,10 @@ documentation: https://kebasyaty.github.io/vizbor/
 dependencies:
   kemal:
     github: kemalcr/kemal
-  kemal-csrf:
-    github: kemalcr/kemal-csrf
   kemal-session:
     github: kemalcr/kemal-session
+  kemal-csrf:
+    github: kemalcr/kemal-csrf
   dynfork:
     github: kebasyaty/dynfork
 
