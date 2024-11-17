@@ -4,13 +4,13 @@ version: 0.1.0
 authors:
   - Gennady Kostyunin <kebasyaty@gmail.com>
 
-crystal: ">= 1.12.1, < 2.0"
+crystal: ">= 1.14.0, < 2.0"
 
 license: MIT
 
 description: |
   Vizbor is a high-level Crystal web framework that encourages rapid development and clean, \
-  pragmatic design. It’s free and open source.
+  pragmatic design. Its free and open source.
 
 homepage: https://github.com/kebasyaty/vizbor
 repository: https://github.com/kebasyaty/vizbor
@@ -19,10 +19,10 @@ documentation: https://kebasyaty.github.io/vizbor/
 dependencies:
   kemal:
     github: kemalcr/kemal
-  kemal-csrf:
-    github: kemalcr/kemal-csrf
   kemal-session:
     github: kemalcr/kemal-session
+  kemal-csrf:
+    github: kemalcr/kemal-csrf
   dynfork:
     github: kebasyaty/dynfork
 
